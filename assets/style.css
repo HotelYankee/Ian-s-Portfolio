@@ -1,0 +1,174 @@
+ * {
+     background-color: bisque;
+    
+ }
+ 
+
+img {
+    float: right; 
+}
+
+.about-me {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+    
+} 
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+} 
+
+.header {
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
+    color: #000000;  
+    margin-top: 0px; 
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+    background-color: red;
+    
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px; 
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: red;
+}
+
+.header div ul {
+    background-color: red;
+
+}
+
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background-color: red;    
+}
+
+.header a {
+    background-color: red;   
+}
+
+
+ h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me  {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-me ul {
+    list-style-type: none;
+    float: center;
+    
+}
+
+.contact-me ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: black;
+}
+
+.work .projects {
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.about-me .content img {
+    border-radius: 5px;
+}
+
+
+.project-wrapper {
+    grid-column: 1 / span 2;
+  }
+
+  .project-grid {
+    grid-gap: 1rem;
+    padding: 1rem;
+  }
+  .contact-img {
+    max-width: 50px;
+  }
+
+  /*  */
+.grid-top {
+  grid-column: 1 / span 2;
+}
+
+.repo {
+  padding: 1rem 2rem;
+  display: inline-table;
+}
+
+.repo:hover {
+  color: #324376;
+  transition: all 0.5s ease;
+  box-shadow: 15px 15px 15px #456990; 
+  transform: scale(1.02);
+  border-radius: 8px;
+}
+
+.project-grid {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+    background-color: red;
+    padding: 2rem;
+    background-image: linear-gradient(#fc0e06, bisque);
+    border: 5px inset #000000;
+  }
+  
+  .project-tile {
+    position: relative;
+    filter: grayscale(80%);
+    height: 30vh;
+    background-size: cover;
+    background-position: top;
+    max-width: 100%;
+    min-width: 30%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #456990;
+    opacity: 0.8;
+    transition: all 0.5s ease;
+  }
+
+  
+
+  @media only screen and (max-width: 768px) {
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #4ef2eb;
+      width: 50%;
+      border-radius: 10px;
+      border-top-left-radius: 0px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+  }
